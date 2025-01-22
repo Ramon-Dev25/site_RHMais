@@ -43,7 +43,7 @@ header {
 section {
     display: flex;
     flex-direction: column;
-    margin: 0;
+    margin-top: 2.3rem;
     width: 100%;
     height: auto;
     padding: 1rem 3rem;
@@ -172,7 +172,7 @@ section {
     display: flex;
     flex-direction: column;
     justify-items: flex-start;
-    padding: 1rem 3rem;
+    padding: 0 3rem;
 }
 
 .seciton_main {
@@ -206,8 +206,8 @@ section {
     color: var(--color-black);
     background-color: var(--color-secondary);
     border-radius: 100px;
-    font-weight: 700;
-    padding: 0.2rem 2rem;
+    font-weight: 400;
+    padding: 0.7rem 3rem;
     font-size: 1.5rem;
     transition: all 0.3s ease-in-out;
 }
@@ -223,7 +223,7 @@ section {
     border: solid 0.1rem var(--color-secondary);
     border-radius: 100px;
     font-weight: 400;
-    padding: 0.2rem 2rem;
+    padding: 0.7rem 3rem;
     font-size: 1.5rem;
     transition: all 0.3s ease-in-out;
 }
@@ -288,3 +288,149 @@ section {
     font-size: 1.1rem;
 }
 
+
+/* SEGUNDA SESSÃO */
+
+.organization_center_div {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    margin-top: 2.5rem;
+}
+
+.img_suport {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.img_suport img {
+    position: relative;
+    border-radius: 25px;
+    width: 100%;
+}
+
+.text_section {
+    position: relative;
+    width: 100%;
+}
+
+.text_section h2 {
+    font-size: 3rem;
+    font-weight: 800;
+    width: 100%;
+    margin-bottom: 1.2rem;
+    color: var(--color-principal);
+}
+
+.text_section p {
+    color: var(--color-black);
+    width: 80%;
+    font-size: 1.1rem;
+}
+
+.design_rectangle {
+    width: 12rem;
+    height: auto;
+    padding: 0.2rem;
+    background-color: var(--color-secondary);
+}
+
+/* SERVIÇOS TELA HOME */
+
+.section_service {
+    width: 100%;
+    height: 100%;
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 1rem;;
+}
+
+.section_service a i {
+    font-size: 1.5rem;
+}
+
+.bg_green {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-principal);
+    color: var(--white);
+}
+
+.title_section {
+    color: var(--white);
+    font-size: 3rem;
+    padding: 0 1rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    border-bottom: solid var(--color-secondary) 0.2rem;
+}
+
+.organization_box_services {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.box_services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    height: auto;
+    padding: 1rem 0.5rem;
+}
+
+.org_info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.box_services span {
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 0.9;
+    padding: 0 0.8rem;
+    margin: 0.5rem 0;
+    color: var(--color-secondary);
+}
+
+.box_services p {
+    font-size: 1.1rem;
+    width: 100%;
+}
+
+.img_service_info {
+    width: 250px;
+    height: 300px;
+}
+
+.bnt_services {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--color-black);
+    background-color: var(--color-secondary);
+    border-radius: 100px;
+    font-weight: 400;
+    margin-top: 1.2rem;
+    padding: 0.3rem 2rem;
+    font-size: 1.5rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.bnt_services:hover {
+    color: var(--color-secondary);
+    background-color: transparent;
+    border: solid 0.1rem var(--color-secondary);
+}
