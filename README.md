@@ -1,2 +1,2 @@
 # site_RHMais
-Site criado para a empresa RH Mais
+Criação do layout para o Front-End do projeto, apenas para demosntração visual.
